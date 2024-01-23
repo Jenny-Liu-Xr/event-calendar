@@ -1,0 +1,73 @@
+.calendar {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 160px);
+  grid-template-rows: 50px repeat(5, 130px);
+  justify-items: start;
+  margin-top: 30px;
+
+}
+
+
+
+.day {
+  width: 100%;
+  display: grid;
+  justify-items: end;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+}
+
+.row {
+  width: 100%;
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.top_date {
+  width: 100px;
+  text-align: left;
+  line-height: 42px;
+}
+
+
+.btn_wrap {
+  flex: 1;
+  text-align: right
+}
+
+.addEvent input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.addEvent button {
+  margin-top: 20px;
+}
+
+.addEvent {
+  position: relative;
+  bottom: 550px;
+  left: 350px;
+}
+
+.updateEvent input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.updateEvent button {
+  margin-top: 20px;
+}
+
+.updateEvent {
+  position: relative;
+  bottom: 550px;
+  left: 350px;
+}
+
+.btn-outline-danger {
+  width: 100%;
+}
